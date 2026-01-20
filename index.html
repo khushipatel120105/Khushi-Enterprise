@@ -3,119 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Khushi Enterprise</title>
+    <title>Khushi Enterprise - RR Cables</title>
     <link rel="stylesheet" href="style.css">
     <script>
         function openWhatsApp() {
-            window.open("https://wa.me/919723453294", "_blank");
+            window.open("https://wa.me/919727853294", "_blank");
         }
-        function sendSMS() {
-            window.open("sms:+919723453294", "_blank");
+        function openSMS() {
+            window.open("sms:+919727853294", "_blank");
         }
     </script>
 </head>
 <body>
 
-<!-- NAVBAR -->
+<!-- ================= NAVBAR ================= -->
 <nav class="navbar">
     <div class="nav-logo">Khushi Enterprise</div>
     <ul class="nav-links">
         <li><a href="#home">Home</a></li>
-        
-        <li><a href="#company">Company Info</a></li>
+        <li><a href="#video">Video</a></li>
+        <li><a href="#company">Info</a></li>
         <li><a href="#contact">Contact</a></li>
     </ul>
 </nav>
 
-<!-- HOME PAGE -->
-<section class="page hero-about" id="home">
+<!-- ================= HOME PAGE ================= -->
+<section class="hero page" id="home">
     <div class="hero-left">
         <h1>Khushi Enterprise</h1>
-        <p class="hero-tagline">
-            Trusted Business Partner Delivering Quality & Excellence
-        </p>
-        <p class="hero-description">
-            Khushi Enterprise is committed to providing high-quality products
-            and reliable services with complete customer satisfaction.
-        </p>
+        <img src="images/image.jpeg" alt="RR Cables" class="hero-image">
+        <p class="hero-contact">📞 +91-9727853294</p>
         <div class="hero-buttons">
-            <a href="tel:+919723453294" class="btn primary">📞 Call</a>
-            <button class="btn secondary" onclick="openWhatsApp()">💬 WhatsApp</button>
-            <button class="btn secondary" onclick="sendSMS()">📩 SMS</button>
+            <a href="#contact" class="btn primary">Contact Us</a>
+            <a href="#company" class="btn secondary">About Us</a>
         </div>
-    </div>
-    <div class="hero-right">
-        <img src="images/image.jpeg" alt="Khushi Enterprise">
-    </div>
-    <div class="scroll-indicator">
-        <span>Scroll Down</span>
-        <div class="arrow"></div>
     </div>
 </section>
 
-<!-- VIDEO PAGE -->
-<section class="page video-page" id="video">
+<!-- ================= VIDEO PAGE ================= -->
+<section class="video-page page" id="video">
     <video autoplay muted loop class="hero-video">
         <source src="video/video.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
-    <div class="hero-overlay"></div>
     <div class="scroll-indicator">
         <span>Scroll Down</span>
         <div class="arrow"></div>
     </div>
 </section>
 
-<!-- COMPANY INFO PAGE -->
-<section class="page company-info" id="company">
-    <div class="company-center">
-        <h2>Company Information</h2>
-        
-        <p><strong>GST Number:</strong> 24APAPP5187Q1Z8</p>
-        <p><strong>Address:</strong> B/404,Empire Heights,Mangleshwar Mahadev Road,Ghodasar,Ahmedabad</p>
-        <p><strong>Location:</strong></p>
-        <div class="map">
-            <iframe 
-    src="https://www.google.com/maps/embed/v1/place?q=Empire%20heights%20ahmedabad&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
-    width="100%" 
-    height="300" 
-    style="border:0;" 
-    allowfullscreen="" 
-    loading="lazy">
-</iframe>
-
-        </div>
-    </div>
-    
-    <div class="scroll-indicator black-arrow">
-        <span>Scroll Down</span>
-        <div class="arrow"></div>
+<!-- ================= COMPANY INFO PAGE ================= -->
+<section class="company-info page" id="company">
+    <h2>About Khushi Enterprise</h2>
+    <p>We are a professional supplier of high-quality RR cables and related electrical products.</p>
+    <p>GST No: 27ABCDE1234F1Z5</p>
+    <p>Address: 123 Industrial Road, Ahmedabad, Gujarat</p>
+    <div class="map">
+        <!-- Example Google Maps Embed -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.0000000000!2d72.000000!3d23.000000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000:0x0000000000000000!2sExample+Location!5e0!3m2!1sen!2sin!4v0000000000" allowfullscreen="" loading="lazy"></iframe>
     </div>
 </section>
 
-<!-- CONTACT PAGE -->
-<section class="page contact-page" id="contact">
-    <div class="contact-left">
-        <h2>Contact Us</h2>
-        <p>We are always ready to help you. Reach us via any method below:</p>
-        <div class="button-container-contact">
-            <button class="whatsapp-btn" onclick="openWhatsApp()">💬 WhatsApp</button>
-            <a href="tel:+919723453294" class="call-btn">📞 Call</a>
-            <a href="mailto:khushienterprise51124@gmail.com" class="email-btn">✉️ Email Us</a>
-            <button class="sms-btn" onclick="sendSMS()">📩 SMS</button>
-        </div>
+<!-- ================= CONTACT PAGE ================= -->
+<section class="contact-page page" id="contact">
+    <h2>Contact Us</h2>
+    <p>Reach us via WhatsApp, Call, Email, or SMS.</p>
+    <div class="button-container-contact">
+        <button class="whatsapp-btn" onclick="openWhatsApp()">💬 WhatsApp</button>
+        <a href="tel:+919727853294" class="call-btn">📞 Call</a>
+        <a href="mailto:khushienterprise@gmail.com" class="email-btn">✉️ Email</a>
+        <button class="sms-btn" onclick="openSMS()">📩 SMS</button>
     </div>
-    <div class="contact-right">
-        <h3>Scan to Pay / Contact</h3>
-        <div class="scanner-frame">
-            <img src="images/QR code.jpeg" alt="Scanner Frame" class="scanner-image">
-            
+    <div class="scanner-frame">
+        <img src="images/scanner.png" alt="QR Scanner" class="scanner-image">
+        <img src="images/qr.png" alt="QR Code" class="qr-code">
     </div>
 </section>
 
+<!-- ================= FOOTER ================= -->
 <footer>
-     Khushi Enterprise.
+    &copy; 2026 Khushi Enterprise - All Rights Reserved
 </footer>
+
+<!-- ================= FLOATING WHATSAPP ================= -->
+<a href="https://wa.me/919727853294" target="_blank" class="floating-whatsapp">💬</a>
 
 </body>
 </html>
