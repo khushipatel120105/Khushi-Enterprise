@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khushi Enterprise</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function openWhatsApp() {
+            window.open("https://wa.me/919723453294", "_blank");
+        }
+        function sendSMS() {
+            window.open("sms:+919723453294", "_blank");
+        }
+    </script>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="nav-logo">Khushi Enterprise</div>
+    <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        
+        <li><a href="#company">Company Info</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- HOME PAGE -->
+<section class="page hero-about" id="home">
+    <div class="hero-left">
+        <h1>Khushi Enterprise</h1>
+        <p class="hero-tagline">
+            Trusted Business Partner Delivering Quality & Excellence
+        </p>
+        <p class="hero-description">
+            Khushi Enterprise is committed to providing high-quality products
+            and reliable services with complete customer satisfaction.
+        </p>
+        <div class="hero-buttons">
+            <a href="tel:+919723453294" class="btn primary">📞 Call</a>
+            <button class="btn secondary" onclick="openWhatsApp()">💬 WhatsApp</button>
+            <button class="btn secondary" onclick="sendSMS()">📩 SMS</button>
+        </div>
+    </div>
+    <div class="hero-right">
+        <img src="images/image.jpeg" alt="Khushi Enterprise">
+    </div>
+    <div class="scroll-indicator">
+        <span>Scroll Down</span>
+        <div class="arrow"></div>
+    </div>
+</section>
+
+<!-- VIDEO PAGE -->
+<section class="page video-page" id="video">
+    <video autoplay muted loop class="hero-video">
+        <source src="video/video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="hero-overlay"></div>
+    <div class="scroll-indicator">
+        <span>Scroll Down</span>
+        <div class="arrow"></div>
+    </div>
+</section>
+
+<!-- COMPANY INFO PAGE -->
+<section class="page company-info" id="company">
+    <div class="company-center">
+        <h2>Company Information</h2>
+        
+        <p><strong>GST Number:</strong> 24APAPP5187Q1Z8</p>
+        <p><strong>Address:</strong> B/404,Empire Heights,Mangleshwar Mahadev Road,Ghodasar,Ahmedabad</p>
+        <p><strong>Location:</strong></p>
+        <div class="map">
+            <iframe 
+    src="https://www.google.com/maps/embed/v1/place?q=Empire%20heights%20ahmedabad&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+    width="100%" 
+    height="300" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy">
+</iframe>
+
+        </div>
+    </div>
+    
+    <div class="scroll-indicator black-arrow">
+        <span>Scroll Down</span>
+        <div class="arrow"></div>
+    </div>
+</section>
+
+<!-- CONTACT PAGE -->
+<section class="page contact-page" id="contact">
+    <div class="contact-left">
+        <h2>Contact Us</h2>
+        <p>We are always ready to help you. Reach us via any method below:</p>
+        <div class="button-container-contact">
+            <button class="whatsapp-btn" onclick="openWhatsApp()">💬 WhatsApp</button>
+            <a href="tel:+919723453294" class="call-btn">📞 Call</a>
+            <a href="mailto:khushienterprise51124@gmail.com" class="email-btn">✉️ Email Us</a>
+            <button class="sms-btn" onclick="sendSMS()">📩 SMS</button>
+        </div>
+    </div>
+    <div class="contact-right">
+        <h3>Scan to Pay / Contact</h3>
+        <div class="scanner-frame">
+            <img src="images/QR code.jpeg" alt="Scanner Frame" class="scanner-image">
+            
+    </div>
+</section>
+
+<footer>
+     Khushi Enterprise.
+</footer>
+
+</body>
+</html>
